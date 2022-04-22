@@ -80,8 +80,8 @@
         function initPortfolio() {
 
             /***PORTFOLIO GALLERY***/
-            var all = '#content,#wordpress,#btl,#other';
-            var afterFirst = '#wordpress,#btl,#other';
+            var all = '#content,#wordpress,#btl,#laravel,#other';
+            var afterFirst = '#wordpress,#btl,#laravel,#other';
             var addButton = '#add-more';
             var addButtonIcon = '#port-add-icon';
             var otherOption = 'a.cate';
