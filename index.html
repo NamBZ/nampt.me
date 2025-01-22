@@ -61,6 +61,18 @@
         #contact #myMap {
             height: 500px!important;
         }
+        .zalo-icon {
+            width: inherit;
+            /* height: inherit; */
+            padding-bottom: 15px;
+        }
+        #timeline-experience::before {
+            height: 60%;
+        }
+        .zalo-qr {
+            max-width: 500px;
+            margin: 0 auto;
+        }
     </style>
   
 </head>
@@ -182,11 +194,7 @@
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="fa fa-gift" aria-hidden="true"></i></span>
-                                    <span class="content">10/03/2000</span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">phone</i></span>
-                                    <span class="content"><template id="__phone__" data-protect="2b3834203937312034303920303031">[phone&#160;protected]</template></span>
+                                    <span class="content">2000</span>
                                 </li>
                                 <li class="clearfix">
                                     <span class="title"><i class="material-icons">place</i></span>
@@ -202,13 +210,16 @@
                             <a href="https://fb.com/nampt.me" id="first_one"
                                class="social btn-floating indigo" rel="noreferrer nofollow" target="_blank"><i
                                     class="fa fa-facebook"></i></a>
+                            <!-- Zalo-->
+                            <a href="#" data-toggle="modal" data-target="#zalo-qrcode"
+                               class="social btn-floating blue"><img class="zalo-icon" src="images/icons/zalo-icon.png"></a>
                             <!-- TELEGRAM-->
                             <a href="https://t.me/namptz" class="social  btn-floating blue darken-1" rel="noreferrer nofollow" target="_blank"><i class="fa fa-paper-plane"></i></a>
                             <!-- LINKEDIN-->
                             <a href="https://www.linkedin.com/in/nampt/" class="social  btn-floating blue darken-3" rel="noreferrer nofollow" target="_blank"><i
                                     class="fa fa-linkedin"></i></a>
                             <!-- GITHUB-->
-                            <a href="https://github.com/zadajtjeu" class="social  btn-floating black" rel="noreferrer nofollow" target="_blank"><i
+                            <a href="https://github.com/nambz" class="social  btn-floating black" rel="noreferrer nofollow" target="_blank"><i
                                     class="fa fa-github-alt"></i></a>
                         </div>
                     </div>
@@ -236,9 +247,9 @@
                     <div class="card-content">
                         <!-- ABOUT PARAGRAPH -->
                         <p style="text-align: justify!important;">
-                            Xin chào! Tôi là Nam, hiện là sinh viên năm cuối chuyên ngành Kỹ thuật phần mềm tại Đại học Công Nghiệp Hà Nội.
-                            Tôi luôn muốn nâng cao kiến thức chuyên môn của mình. Có kiến thức cơ sở về OOP, Cơ sở dữ liệu, Hosting/Server, ...
-                            Các ngôn ngữ lập trình như C, C++, C#, PHP, Java, TSQL, ... Kiến thức vận hành và quản trị trang web Wordpress và kỹ năng SEO.
+                            Là một người thích tìm tòi và học hỏi, tôi rất muốn tạo ra những sản phẩm hỗ trợ bản thân và đem lại giá trị cho cộng đồng.
+                            Mong muốn có thêm nhiều trải nghiệm để tích lỹ thêm kinh nghiệm chuyên môn, nâng cao hiểu biết của mình.
+                            Trở thành lập trình viên Fullstack tự tin làm chủ các công nghệ phát triển phần mềm.
                         </p>
                     </div>
 
@@ -246,7 +257,7 @@
                     <div id="about-btn" class="card-action">
                         <div class="about-btn">
                             <!-- DOWNLOAD CV BUTTON -->
-                            <a href="https://drive.google.com/file/d/1zLihVaC4MrXYn9KMcfmDlDvYm0s2ADbO/view?usp=sharing" class="btn waves-effect">Download CV</a>
+                            <a href="https://drive.google.com/file/d/1zLihVaC4MrXYn9KMcfmDlDvYm0s2ADbO/view?usp=sharing" class="btn waves-effect">My CV</a>
                             <!-- CONTACT BUTTON -->
                             <a href="#contact" class="btn waves-effect">Liên hệ</a>
                         </div>
@@ -290,11 +301,11 @@
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            Tôi đã hoàn thành chương trình trung học phổ thông loại Giỏi.
-                            Đây cũng là tiền đề cho tôi theo tiếp con đường học vấn sau này.
+                            Tôi đã hoàn thành chương trình trung học phổ thông tại ngôi trường công lập này.
+                            Đây cũng là tiền đề cho tôi tiếp tục con đường học vấn sau này.
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-2">
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#timelineModal-1">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -321,12 +332,11 @@
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            Tôi chọn con đường Đại học với ngành Kỹ thuật phần mềm.
-                            Hiện tại tôi đang hoàn thành nốt chương trình cho sinh viên năm cuối đại học.
-                            Điểm tích luỹ 3.4
+                            Tốt nghiệp ngành Kỹ thuật phần mềm tại Đại học Công Nghiệp Hà Nội.
+                            Được đào tạo về lập trình, cơ sở dữ liệu, kiểm thử, phân tích thiết kế hệ thống, ...
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-3">
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#timelineModal-2">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -362,25 +372,25 @@
                                 <div class="skillbar" data-percent="40%">
                                     <div class="skillbar-title"><span>HTML/CSS/JS</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">BEGINNER</div>
+                                    <div class="skill-bar-percent">Fresher</div>
                                 </div>
                                 <!-- SECOND SKILL BAR  -->
                                 <div class="skillbar" data-percent="80%">
                                     <div class="skillbar-title"><span>PHP</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">BEGINNER</div>
+                                    <div class="skill-bar-percent">Junior</div>
                                 </div>
                                 <!-- THIRD SKILL BAR  -->
-                                <div class="skillbar" data-percent="50%">
+                                <div class="skillbar" data-percent="60%">
                                     <div class="skillbar-title"><span>Laravel</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">BEGINNER</div>
+                                    <div class="skill-bar-percent">Junior</div>
                                 </div>
                                 <!-- FOURTH SKILL BAR  -->
                                 <div class="skillbar" data-percent="50%">
                                     <div class="skillbar-title"><span>C#/.Net</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">BEGINNER</div>
+                                    <div class="skill-bar-percent">Fresher</div>
                                 </div>
                             </div>
 
@@ -398,7 +408,7 @@
                                 </div>
                                 <!-- SECOND SKILL BAR  -->
                                 <div class="skillbar" data-percent="75%">
-                                    <div class="skillbar-title"><span>Làm việc độc lập</span></div>
+                                    <div class="skillbar-title"><span>Làm việc nhóm</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">75%</div>
                                 </div>
@@ -424,19 +434,19 @@
                                 </div>
                                 <!-- FIRST SKILL BAR -->
                                 <div class="skillbar" data-percent="50%">
-                                    <div class="skillbar-title"><span>Adobe Photoshop</span></div>
+                                    <div class="skillbar-title"><span>Ubuntu</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">50%</div>
                                 </div>
                                 <!-- SECOND SKILL BAR  -->
                                 <div class="skillbar" data-percent="60%">
-                                    <div class="skillbar-title"><span>Visual Studio</span></div>
+                                    <div class="skillbar-title"><span>Visual Studio Code</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">60%</div>
                                 </div>
                                 <!-- THIRD SKILL BAR  -->
                                 <div class="skillbar" data-percent="60%">
-                                    <div class="skillbar-title"><span>Sublime Text 3</span></div>
+                                    <div class="skillbar-title"><span>Office/GG Docs</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">60%</div>
                                 </div>
@@ -471,7 +481,7 @@
             <!-- FIRST TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                <div class="timeline-dot"><i class="fa fa-comments-o" aria-hidden="true"></i></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
@@ -491,7 +501,7 @@
                             Content Collaborator, SEO Staff, Webmaster cho Wordpress Site
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myexModal-1">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -501,7 +511,7 @@
             <!-- SECOND TIMELINE -->
             <div class="timeline-block">
                 <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                <div class="timeline-dot"><i class="fa fa-leanpub" aria-hidden="true"></i></div>
                 <!-- TIMELINE CONTENT -->
                 <div class="card timeline-content">
                     <div class="card-content">
@@ -510,7 +520,7 @@
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>Sun Asterisk Inc</small>
+                                <small>Sun* Inc (Sun Asterisk Inc)</small>
                             </h6>
                             <h6>
                                 <small>12/2021 - 04/2022</small>
@@ -518,10 +528,41 @@
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
                         <p>
-                            Tham gia quá trình thực tập PHP Developer tại bộ phận đào tạo TIV của công ty Sun* Inc.
+                            Thực tập PHP Developer tại bộ phận đào tạo Talent Incubator Vietnam Unit (TIV) của Sun* Inc.
                         </p>
                         <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-5">
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myexModal-2">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THIR TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="fa fa-file-code-o" aria-hidden="true"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">BE Developer</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Sun* Inc (Sun Asterisk Inc)</small>
+                            </h6>
+                            <h6>
+                                <small>5/2022 - 01/2023</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Là công việc fulltime đầu tiên sau khi tốt nghiệp Đại học.
+                            Tham gia phát triển các sản phẩm nội bộ của công ty.
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myexModal-3">
                             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -536,6 +577,27 @@
                   MODALS
 ===========================================-->
 <section>
+    <!--Zalo QR POPUP-->
+    <div class="modal fade" id="zalo-qrcode" tabindex="-1" role="dialog" aria-labelledby="zaloLabel-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!--MODAL HEADER-->
+                <div class="modal-header  text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true"><i class="fa fa-close"></i></span></button>
+                </div>
+                <!--MODAL BODY-->
+                <div class="modal-body">
+                    <img class="img-responsive zalo-qr" alt="zalo qr code" src="images/profile/zalo-qrcode.jpg">
+                </div>
+                <!--MODAL FOOTER-->
+                <div class="modal-footer">
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--MODAL ONE-->
     <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
         <div class="modal-dialog modal-lg" role="document">
@@ -566,24 +628,25 @@
         </div>
     </div>
 
-    <!--MODAL TWO-->
-    <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+    <!--Timeline Modal 1-->
+    <div class="modal fade" id="timelineModal-1" tabindex="-1" role="dialog" aria-labelledby="timelineModalLabel-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <!--MODAL HEADER-->
                 <div class="modal-header  text-center">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true"><i class="fa fa-close"></i></span></button>
-                    <h4 class="modal-title" id="myModalLabel-2">THPT Nam Đông Quan</h4>
+                    <h4 class="modal-title" id="timelineModalLabel-1">THPT Nam Đông Quan</h4>
                     <h6>
                         <small>2015 - 2018</small>
                     </h6>
                 </div>
                 <!--MODAL BODY-->
                 <div class="modal-body">
+                    <img class="img-responsive" alt="graduation" src="images/timeline/KYML12BNDQ.jpg">
                     <p>
-                        Một bước ngoặt cuộc đời khi trùng tuyển vào trường phổ thông công lập của Huyện, cũng là tiền đề để tôi quyết định học tiếp Đại học.
-                        Tiếp cận với lập trình và phát triển một vài website: nam.name.vn, s2vn.top (died)
+                        Một bước ngoặt cuộc đời khi trúng tuyển vào trường phổ thông công lập của Huyện, cũng là tiền đề để tôi quyết định học tiếp Đại học.
+                        Tiếp cận với lập trình và phát triển một vài dự án cá nhân: nam.name.vn, s2vn.top (died)
                         Tiếp tục học đại học sau khi tốt nghiệp THPT với bằng Giỏi.
                     </p>
                 </div>
@@ -595,26 +658,26 @@
         </div>
     </div>
 
-    <!--MODAL THREE-->
-    <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
+    <!--Timeline Modal 2-->
+    <div class="modal fade" id="timelineModal-2" tabindex="-1" role="dialog" aria-labelledby="timelineModalLabel-2">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <!--MODAL HEADER-->
                 <div class="modal-header  text-center">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true"><i class="fa fa-close"></i></span></button>
-                    <h4 class="modal-title" id="myModalLabel-3">Kỹ sư phần mềm - HAUI</h4>
+                    <h4 class="modal-title" id="timelineModalLabel-2">Kỹ sư phần mềm - HAUI</h4>
                     <h6>
                         <small>2018 - 2022</small>
                     </h6>
                 </div>
                 <!--MODAL BODY-->
                 <div class="modal-body">
-                    <img class="img-responsive" alt="graduation" src="images/timeline/haui.jpg">
+                    <img class="img-responsive" alt="graduation" src="images/timeline/do-an-tot-nghiep.jpg">
                     <p>
                         Quyết định học đại học ngành Kỹ thuật phần mềm tại Đại học Công Nghiệp Hà Nội.
-                        Được sự hướng dẫn của giảng viên, lĩnh hội nhiều kiến thức về Cơ sở dũ liệu, lập trình hướng đối tượng, kiểm thử, ...
-                        Tôi đang hoàn thành nốt chương trình đại học cho sinh viên năm cuối với điểm tích luỹ 3 năm qua là 3.4
+                        Được sự hướng dẫn của giảng viên, lĩnh hội nhiều kiến thức về Cơ sở dữ liệu, lập trình hướng đối tượng, kiểm thử, ...
+                        Tôi đã hoàn thành chương trình cử nhân với GPA 3.5/4.0
                     </p>
                 </div>
                 <!--MODAL FOOTER-->
@@ -625,15 +688,15 @@
         </div>
     </div>
 
-    <!--MODAL FOUR-->
-    <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+    <!--Experience Modal 1-->
+    <div class="modal fade" id="myexModal-1" tabindex="-1" role="dialog" aria-labelledby="myexModalLabel-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <!--MODAL HEADER-->
                 <div class="modal-header  text-center">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true"><i class="fa fa-close"></i></span></button>
-                    <h4 class="modal-title" id="myModalLabel-4">Cộng tác viên - Part Time</h4>
+                    <h4 class="modal-title" id="myexModalLabel-1">Cộng tác viên - Part Time</h4>
                     <h6>
                         <small>2019 - 2020</small>
                     </h6>
@@ -642,16 +705,16 @@
                 <div class="modal-body">
                     <h6> Cộng tác viên nội dung </h6>
                     <p>
-                        Công việc đầu tiên khi từ cơ sở 3 DHCNHN lên Hà Nội. Tôi phụ trách làm nội dung cho website bất động sản nha.tv
+                        Là công việc part-time đầu tiên khi lên Hà Nội. Tôi phụ trách nội dung cho website bất động sản nha.tv
                     </p>
                     <h6> SEO Staff </h6>
                     <p>
-                        Tôi được phụ trách thêm nội dung và tối ưu tìm kiếm cho hệ thống nội thất MSpace.Vn
+                        Được phụ trách thêm nội dung và tối ưu tìm kiếm cho hệ thống nội thất MSpace.Vn cho tôi thêm nhiều kinh nghiệm khi triển khai website.
                     </p>
                     <h6> Webmaster </h6>
                     <p>
-                        Rời khỏi vị trí nội dung khi cảm thấy không phù hợp với một thằng con trai khô khan như tôi.
-                        Tôi phụ trách dựng các website bằng wordpress và vận hành website checkintravel.vn.
+                        Rời khỏi vị trí nội dung với những cơ hội và thử thách mới.
+                        Tôi phụ trách thiết kế các website trên mã nguồn wordpress và vận hành website checkintravel.vn.
                     </p>
                 </div>
                 <!--MODAL FOOTER-->
@@ -662,15 +725,15 @@
         </div>
     </div>
 
-    <!--MODAL FIVE-->
-    <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+    <!--Experience Modal 2-->
+    <div class="modal fade" id="myexModal-2" tabindex="-1" role="dialog" aria-labelledby="myexModalLabel-2">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <!--MODAL HEADER-->
                 <div class="modal-header  text-center">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true"><i class="fa fa-close"></i></span></button>
-                    <h4 class="modal-title" id="myModalLabel-4">Open Education</h4>
+                    <h4 class="modal-title" id="myexModalLabel-2">Open Education</h4>
                     <h6>
                         <small>12/2021 - 04/2022</small>
                     </h6>
@@ -678,9 +741,45 @@
                 <!--MODAL BODY-->
                 <div class="modal-body">
                     <h6> Thực tập sinh </h6>
+                    <img class="img-responsive" alt="open education in tiv sun* inc" src="images/timeline/open-education-tiv.jpg">
                     <p>
-                        Tham gia quá trình thực tập PHP Developer tại bộ phận đào tạo TIV của công ty Sun* Inc.
+                        Tham gia vào khoá thực tập Open Educaion của Sun* Inc tại bộ phận đào tạo TIV.
+                        Được đào tạo bài bản về PHP, Laravel, MySQL, HTML/CSS/JS, Git, Agile, Scrum, ...
+                        giúp tôi nâng cao kỹ năng lập trình và hiểu biết về quy trình phát triển phần mềm.
                     </p>
+                    <p>
+                        Tôi đã hoàn thành khoá thực tập với Project Bookstore bằng sự hợp tác cùng các bạn trong nhóm.
+                    </p>
+                </div>
+                <!--MODAL FOOTER-->
+                <div class="modal-footer">
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Experience Modal 3-->
+    <div class="modal fade" id="myexModal-3" tabindex="-1" role="dialog" aria-labelledby="myexModalLabel-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!--MODAL HEADER-->
+                <div class="modal-header  text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true"><i class="fa fa-close"></i></span></button>
+                    <h4 class="modal-title" id="myexModalLabel-3">Back-end Developer</h4>
+                    <h6> Sun Asterisk Inc </h6>
+                    <h6>
+                        <small>5/2022 - 01/2023</small>
+                    </h6>
+                </div>
+                <!--MODAL BODY-->
+                <div class="modal-body">
+                    <h6> Back-end Developer </h6>
+                    <img class="img-responsive" alt="developer in tiv sun* inc" src="images/timeline/tiv-sun-asterisk.png">
+                    <p>Phát triển và bảo trì các sản phẩm nội bộ của công ty.</p>
+                    <p>Làm việc trong Scrum Team bảo đảm hiệu quả công việc tốt.</p>
+                    <p>Là mentor hỗ trợ các trainee trong quá trình đào tạo tại bộ phận.</p>
                 </div>
                 <!--MODAL FOOTER-->
                 <div class="modal-footer">

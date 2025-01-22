@@ -14,7 +14,7 @@
          SHOW PROTECTED DATA
          --------------------------------------------- */
         protectData($("#__email__"));               //email
-        protectData($("#__phone__"));               //phone
+        // protectData($("#__phone__"));               //phone
 
         function initNav() {
             /***MENU TOGGLE ANIMATION***/
